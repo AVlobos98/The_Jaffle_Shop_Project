@@ -22,6 +22,7 @@ Sample ecommerce dataset provided by dbt Labs (Jaffle Shop), loaded into BigQuer
 
 ### Marts
 - `fct_orders` — One row per order with all relevant dimensions
+      -chose row-level fact table over pre-aggregated mart to maximize flexibility for BI tools.
 - `dim_customers` — One row per customer with lifetime metrics
 - `mart_store_metrics` — Monthly revenue and order metrics by store
 - `mart_customer_monthly` — Monthly order and spend metrics by customer
