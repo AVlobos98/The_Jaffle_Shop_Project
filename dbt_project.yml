@@ -18,9 +18,9 @@ clean-targets:
 
 models:
   The_Jaffle_Shop_Project:
-    staging:
+    Staging:
       +materialized: view
-    intermediate:
+    Intermediate:
       +materialized: view
     marts:
       +materialized: table

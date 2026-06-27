@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_order_summary
+    description: "One row per order with customer and store information joined in."
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
