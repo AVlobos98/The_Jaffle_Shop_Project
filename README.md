@@ -33,3 +33,28 @@ Sample ecommerce dataset provided by dbt Labs (Jaffle Shop), loaded into BigQuer
 
 ## Lineage
 ![Lineage Graph](lineage.png)
+
+## Screenshots
+
+### Lineage Graph
+![Lineage Graph](lineage.png)
+
+### fct_orders
+![fct_orders](screenshots/fct_orders.png)
+
+### dim_customers
+![dim_customers](screenshots/dim_customers.png)
+
+## Screenshots
+
+### Lineage Graph
+![Lineage Graph](lineage.png)
+
+### fct_orders
+![fct_orders](fct_orders.png)
+
+### dim_customers
+![dim_customers](dim_customers.png)
+
+### mart_store_metrics
+![mart_store_metrics](mart_store.png)
