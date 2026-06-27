@@ -31,9 +31,6 @@ Sample ecommerce dataset provided by dbt Labs (Jaffle Shop), loaded into BigQuer
 - **Warehouse**: Google BigQuery
 - **Version Control**: GitHub
 
-## Lineage
-![Lineage Graph](lineage.png)
-
 ## Screenshots
 
 ### Lineage Graph
